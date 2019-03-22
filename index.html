@@ -1,0 +1,23 @@
+<!doctype html>
+
+<head>
+  <title>Vue Course Planner</title>
+  <meta charset='utf-8'>
+  <meta name="description" content="Simple example to start building an app to plan your courses using Vue.js and drag and drop>
+  <meta name="author" content="Denise Case">
+
+  <link rel='stylesheet' href='main.css' />
+</head>
+
+<body>
+  <!-- downloads and then defer forces them to execute in order, waiting for dependencies to finish -->
+  <!-- See https://www.html5rocks.com/en/tutorials/speed/script-loading/ for more -->
+    <script defer src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.13/vue.min.js'></script>
+    <script defer src='https://unpkg.com/vue-draggable@1.0.5/lib/vue-draggable.js'></script>
+    <script defer src='main.js'></script>
+
+    <div id="app">
+    </div>
+    
+</body>
+</html>
